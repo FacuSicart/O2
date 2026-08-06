@@ -784,12 +784,12 @@ function App() {
         <section id="facility" className="facility section-shell" data-reveal>
           <div className="facility-copy">
             <p className="eyebrow">Centro</p>
-            <h2>Un espacio oscuro, preciso y silencioso para bajar ruido y subir respuesta.</h2>
+            <h2>Un centro diseñado para entrenar, recuperar y volver mejor.</h2>
             <p>
-              Galería preparada para fotografías reales del centro: boxes, lounge, equipamiento, staff y atletas. Hasta contar con material definitivo, las placas visuales funcionan como placeholders premium.
+              Un espacio preparado para acompañar el rendimiento desde la evaluación hasta la recuperación: entrenamiento personalizado, tecnología aplicada, áreas de trabajo físico y un entorno pensado para que cada sesión tenga foco, precisión y continuidad.
             </p>
           </div>
-          <div className="gallery" aria-label="Galería placeholder del centro">
+          <div className="gallery" aria-label="Galería del centro Nova Sports Recovery">
             <figure className="gallery-tile tile-a">
               <img src="/centro1.png" alt="Vista del centro Nova Sports Recovery" />
             </figure>
