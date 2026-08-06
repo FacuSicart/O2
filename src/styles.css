@@ -692,6 +692,7 @@ h3 {
 
 .gallery-tile {
   position: relative;
+  margin: 0;
   border: 1px solid var(--line);
   border-radius: var(--radius);
   overflow: hidden;
@@ -699,6 +700,19 @@ h3 {
     linear-gradient(130deg, rgba(255, 255, 255, 0.08), transparent 32%),
     radial-gradient(circle at 68% 42%, rgba(118, 255, 143, 0.34), transparent 9rem),
     linear-gradient(160deg, #07101d, #02050a);
+}
+
+.gallery-tile img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 700ms ease, filter 300ms ease;
+}
+
+.gallery-tile:hover img {
+  filter: saturate(1.08) contrast(1.04);
+  transform: scale(1.035);
 }
 
 .gallery-tile::after {
@@ -725,7 +739,7 @@ h3 {
 
 .tile-c {
   background:
-    linear-gradient(135deg, rgba(7, 92, 255, 0.36), transparent),
+    linear-gradient(135deg, rgba(0, 216, 90, 0.28), transparent),
     radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.15), transparent 7rem),
     #02050a;
 }

@@ -734,7 +734,7 @@ function App() {
             </p>
           </div>
           <figure className="manifest-photo">
-            <img src="/O2posible.jpg" alt="Instalaciones de Nova Sports Recovery con logo iluminado" />
+            <img src="/fotoqs.png" alt="Instalaciones de Nova Sports Recovery" />
           </figure>
         </section>
 
@@ -790,9 +790,15 @@ function App() {
             </p>
           </div>
           <div className="gallery" aria-label="Galería placeholder del centro">
-            <div className="gallery-tile tile-a" role="img" aria-label="Placeholder de recovery lounge con iluminación verde" />
-            <div className="gallery-tile tile-b" role="img" aria-label="Placeholder de tecnología deportiva" />
-            <div className="gallery-tile tile-c" role="img" aria-label="Placeholder de protocolo de recuperación" />
+            <figure className="gallery-tile tile-a">
+              <img src="/centro1.png" alt="Vista del centro Nova Sports Recovery" />
+            </figure>
+            <figure className="gallery-tile tile-b">
+              <img src="/centro2.png" alt="Equipamiento del centro Nova Sports Recovery" />
+            </figure>
+            <figure className="gallery-tile tile-c">
+              <img src="/centro3.png" alt="Espacio de atención de Nova Sports Recovery" />
+            </figure>
           </div>
         </section>
 
