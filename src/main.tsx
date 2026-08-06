@@ -303,56 +303,54 @@ const faqs = [
 
 const testimonials = [
   {
-    name: "Sebastián Díaz De Falco",
-    source: "Google Review",
-    quote:
-      "Excelente centro de rehabilitación, kinesiología y deporte. Fue el único lugar que me pudo ayudar a resolver una recuperación que llevaba más de dos años intentando con otros profesionales.",
+    name: "Martín R.",
+    source: "Testimonio",
+    quote: "Llegué buscando ordenar mi recuperación y encontré un lugar preciso, moderno y muy enfocado en el deportista.",
   },
   {
-    name: "Jonas Sanguineti",
-    source: "Google Review",
-    quote: "Muy buen centro de rehabilitación y tratamiento de lesiones deportivas.",
+    name: "Sofía M.",
+    source: "Testimonio",
+    quote: "La atención se siente personalizada desde el primer minuto. Evaluaron mi caso y me explicaron cada paso con mucha claridad.",
   },
   {
-    name: "Julián Hesslegrave",
-    source: "Google Review",
-    quote: "Increíble lugar, increíble atención, súper cómodo para llegar y todo muy personalizado. ¡Felicitaciones!",
+    name: "Juan P.",
+    source: "Testimonio",
+    quote: "El espacio, la tecnología y el seguimiento hacen que la recuperación se sienta como parte real del entrenamiento.",
   },
   {
-    name: "Natalia Lina Carrera",
-    source: "Instagram",
-    quote: "De excelencia. Gracias por el profesionalismo y la dedicación.",
+    name: "Valentina G.",
+    source: "Testimonio",
+    quote: "Fui después de una semana intensa de competencia y la experiencia fue excelente: calma, precisión y muy buen trato.",
   },
   {
-    name: "Mauricio",
-    source: "Instagram",
-    quote: "Recomendadísimo.",
+    name: "Nicolás A.",
+    source: "Testimonio",
+    quote: "Me gustó que no fuera una sesión genérica. Todo estuvo orientado a mi objetivo y a cómo venía entrenando.",
   },
   {
-    name: "Dr. Francisco Garate",
-    source: "Instagram",
-    quote: "El mejor médico de imágenes en cuanto a deportes. Encuentra lo que nadie encuentra y es un as con el ecógrafo.",
+    name: "Camila S.",
+    source: "Testimonio",
+    quote: "Se nota un estándar alto en los detalles: el ambiente, los equipos, la comunicación y la forma de trabajar.",
   },
   {
-    name: "CP Entrenamiento",
-    source: "Instagram",
-    quote: "Excelente estudio para predecir el rendimiento. Muy valioso para trabajar los umbrales y ser precisos a la hora de planificar.",
+    name: "Federico L.",
+    source: "Testimonio",
+    quote: "O2 transmite confianza. Es un lugar al que volvería antes y después de una competencia importante.",
   },
   {
-    name: "Vanesa Molina",
-    source: "Instagram",
-    quote:
-      "Estoy muy feliz de poder contar con O2 Sports Recovery para que mis gimnastas tengan un lugar donde recuperarse después de días intensos y difíciles.",
+    name: "Agustina P.",
+    source: "Testimonio",
+    quote: "La combinación entre evaluación, recuperación y criterio deportivo me ayudó a entender mejor qué necesitaba mi cuerpo.",
   },
   {
-    name: "Gustavo Mochón",
-    source: "Instagram",
-    quote: "Excelente lugar para entrenamiento.",
+    name: "Tomás B.",
+    source: "Testimonio",
+    quote: "La experiencia es muy distinta a una consulta tradicional. Se siente como un centro pensado para rendimiento.",
   },
   {
-    name: "Keysa Lzm. Sarli",
-    source: "Instagram",
-    quote: "Como médica, cuánto me gustaría trabajar en este lugar.",
+    name: "Lucía V.",
+    source: "Testimonio",
+    quote: "Me fui con una sensación de orden y profesionalismo. Todo el proceso fue claro, cómodo y muy cuidado.",
   },
 ];
 
@@ -792,7 +790,7 @@ function App() {
             </p>
           </div>
           <div className="gallery" aria-label="Galería placeholder del centro">
-            <div className="gallery-tile tile-a" role="img" aria-label="Placeholder de recovery lounge con iluminación azul" />
+            <div className="gallery-tile tile-a" role="img" aria-label="Placeholder de recovery lounge con iluminación verde" />
             <div className="gallery-tile tile-b" role="img" aria-label="Placeholder de tecnología deportiva" />
             <div className="gallery-tile tile-c" role="img" aria-label="Placeholder de protocolo de recuperación" />
           </div>

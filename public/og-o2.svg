@@ -1,13 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
   <defs>
     <radialGradient id="g" cx="68%" cy="42%" r="58%">
-      <stop offset="0" stop-color="#25d9ff" stop-opacity=".92"/>
-      <stop offset=".32" stop-color="#075cff" stop-opacity=".34"/>
+      <stop offset="0" stop-color="#31ff73" stop-opacity=".92"/>
+      <stop offset=".32" stop-color="#0f7a2f" stop-opacity=".34"/>
       <stop offset="1" stop-color="#02050a"/>
     </radialGradient>
     <linearGradient id="m" x1="0" x2="1">
       <stop offset="0" stop-color="#ffffff"/>
-      <stop offset=".48" stop-color="#8ccfff"/>
+      <stop offset=".48" stop-color="#b7ffc5"/>
       <stop offset="1" stop-color="#ffffff"/>
     </linearGradient>
   </defs>
@@ -17,3 +17,4 @@
   <text x="80" y="360" fill="#f7fbff" font-size="56" font-family="Arial, sans-serif" font-weight="700">Sports &amp; Recovery</text>
   <text x="84" y="430" fill="#9cb2c9" font-size="28" font-family="Arial, sans-serif">Centro de Alto Rendimiento Deportivo</text>
 </svg>
+
