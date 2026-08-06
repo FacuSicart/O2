@@ -423,8 +423,12 @@ function FooterContact() {
           {contactData.addressStreet}
           <br />
           {contactData.addressLocality}, {contactData.addressRegion}
-          <br />
-          {contactData.addressDetails}
+          {contactData.addressDetails && (
+            <>
+              <br />
+              {contactData.addressDetails}
+            </>
+          )}
         </p>
         <p>
           {contactData.openingHoursLines[0]}
@@ -651,7 +655,7 @@ function App() {
         telephone: contactData.phoneRaw,
         address: {
           "@type": "PostalAddress",
-          streetAddress: `${contactData.addressStreet}, ${contactData.addressDetails}`,
+          streetAddress: contactData.addressDetails ? `${contactData.addressStreet}, ${contactData.addressDetails}` : contactData.addressStreet,
           addressLocality: contactData.addressLocality,
           addressRegion: contactData.addressRegion,
           addressCountry: contactData.addressCountry,
