@@ -1515,6 +1515,12 @@ details p {
   .button {
     width: 100%;
   }
+
+  .contact-actions .button {
+    width: auto;
+    min-width: min(260px, 100%);
+    padding-inline: 18px;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
