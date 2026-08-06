@@ -343,7 +343,7 @@ h3 {
   width: min(138%, 980px);
   height: auto;
   border-radius: 0;
-  filter: hue-rotate(-92deg) saturate(1.22);
+  filter: none;
   transform: translate(96px, 48px);
 }
 
@@ -368,7 +368,7 @@ h3 {
     display: block;
     width: 100%;
     height: auto;
-    filter: hue-rotate(-92deg) saturate(1.22);
+    filter: none;
   }
 
   .hero > .hero-atmosphere,

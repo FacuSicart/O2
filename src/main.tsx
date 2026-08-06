@@ -721,7 +721,7 @@ function App() {
             </div>
           </div>
           <div className="hero-visual">
-            <img src="/DiseñoO2.png" alt="Diseño Nova Sports Recovery" className="hero-logo-image" />
+            <img src="/BannerMobile.png" alt="Nova Sports Recovery" className="hero-logo-image" />
           </div>
         </section>
 
