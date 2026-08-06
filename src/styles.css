@@ -1220,18 +1220,8 @@ details p {
 
 .floating-whatsapp:hover,
 .floating-whatsapp:focus-visible {
-  width: 220px;
-  max-width: calc(100vw - 44px);
-  padding: 0 16px;
   transform: translateY(-3px);
   box-shadow: 0 22px 82px rgba(0, 108, 245, 0.42);
-}
-
-.floating-whatsapp:hover span,
-.floating-whatsapp:focus-visible span {
-  position: static;
-  max-width: 190px;
-  opacity: 1;
 }
 
 .site-footer {
