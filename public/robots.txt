@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://o2sportsrecovery.com/sitemap.xml
+Sitemap: https://novasportsrecovery.com/sitemap.xml

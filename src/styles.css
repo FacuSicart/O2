@@ -104,7 +104,7 @@ a {
   display: block;
   width: 104px;
   height: auto;
-  filter: hue-rotate(-92deg) saturate(1.22) drop-shadow(0 0 14px rgba(0, 216, 90, 0.34));
+  filter: drop-shadow(0 0 14px rgba(0, 216, 90, 0.34));
 }
 
 .brand-mark {

@@ -293,7 +293,7 @@ const faqs = [
   },
   {
     q: "¿Puedo consultar si entreno o compito?",
-    a: "Sí. O2 trabaja con servicios vinculados a evaluación, apto físico, entrenamiento, prevención, recuperación y acompañamiento deportivo.",
+    a: "Sí. Nova trabaja con servicios vinculados a evaluación, apto físico, entrenamiento, prevención, recuperación y acompañamiento deportivo.",
   },
   {
     q: "¿Dónde veo todos los servicios?",
@@ -335,7 +335,7 @@ const testimonials = [
   {
     name: "Federico L.",
     source: "Testimonio",
-    quote: "O2 transmite confianza. Es un lugar al que volvería antes y después de una competencia importante.",
+    quote: "Nova transmite confianza. Es un lugar al que volvería antes y después de una competencia importante.",
   },
   {
     name: "Agustina P.",
@@ -380,7 +380,7 @@ function ContactActions({ className = "" }: { className?: string }) {
 function LocationMap() {
   return (
     <div className="location-map">
-      <iframe src={contactData.mapsEmbedUrl} title="Ubicación de O2 Sports & Recovery" loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+      <iframe src={contactData.mapsEmbedUrl} title="Ubicación de Nova Sports & Recovery" loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
       <a className="map-link" href={contactData.mapsUrl} target="_blank" rel="noopener noreferrer">
         Cómo llegar <MapPin size={16} />
       </a>
@@ -403,8 +403,8 @@ function FooterContact() {
   return (
     <footer className="site-footer">
       <div className="footer-brand">
-        <a className="brand" href="/#top" aria-label="O2 Sports & Recovery inicio">
-          <img className="brand-logo" src="/logoO2-cropped.png" alt="" aria-hidden="true" />
+        <a className="brand" href="/#top" aria-label="Nova Sports & Recovery inicio">
+          <img className="brand-logo" src="/logonova.png" alt="" aria-hidden="true" />
           <small>Sports & Recovery</small>
         </a>
         <p>Centro de Alto Rendimiento Deportivo.</p>
@@ -438,7 +438,7 @@ function FooterContact() {
           <Instagram size={16} /> {contactData.instagramHandle}
         </a>
       </div>
-      <p className="footer-legal">© 2026 O2 Sports & Recovery.</p>
+      <p className="footer-legal">© 2026 Nova Sports & Recovery.</p>
     </footer>
   );
 }
@@ -512,19 +512,19 @@ function ServiceAccordion({ service, categoryId, index }: { service: ServiceDeta
 
 function ServicesPage() {
   useEffect(() => {
-    document.title = "Servicios de medicina deportiva y recovery | O2 Sports & Recovery";
+    document.title = "Servicios de medicina deportiva y recovery | Nova Sports & Recovery";
     const description = document.querySelector('meta[name="description"]');
     description?.setAttribute(
       "content",
-      "Conocé los servicios de O2 Sports & Recovery: apto físico, evaluaciones deportivas, cardiología, traumatología, entrenamiento, kinesiología, recovery y nutrición.",
+      "Conocé los servicios de Nova Sports & Recovery: apto físico, evaluaciones deportivas, cardiología, traumatología, entrenamiento, kinesiología, recovery y nutrición.",
     );
-    document.querySelector('link[rel="canonical"]')?.setAttribute("href", "https://o2sportsrecovery.com/servicios");
-    document.querySelector('meta[property="og:title"]')?.setAttribute("content", "Servicios de medicina deportiva y recovery | O2 Sports & Recovery");
+    document.querySelector('link[rel="canonical"]')?.setAttribute("href", "https://novasportsrecovery.com/servicios");
+    document.querySelector('meta[property="og:title"]')?.setAttribute("content", "Servicios de medicina deportiva y recovery | Nova Sports & Recovery");
     document
       .querySelector('meta[property="og:description"]')
       ?.setAttribute(
         "content",
-        "Conocé los servicios de O2 Sports & Recovery: apto físico, evaluaciones deportivas, cardiología, traumatología, entrenamiento, kinesiología, recovery y nutrición.",
+        "Conocé los servicios de Nova Sports & Recovery: apto físico, evaluaciones deportivas, cardiología, traumatología, entrenamiento, kinesiología, recovery y nutrición.",
       );
   }, []);
 
@@ -555,7 +555,7 @@ function ServicesPage() {
         <p className="eyebrow">Servicios</p>
         <h1>Servicios de medicina deportiva y recovery</h1>
         <p>
-          Conocé la oferta confirmada de O2 Sports & Recovery, organizada para evaluar, acompañar, entrenar y recuperar con criterio profesional.
+          Conocé la oferta confirmada de Nova Sports & Recovery, organizada para evaluar, acompañar, entrenar y recuperar con criterio profesional.
         </p>
       </section>
 
@@ -644,10 +644,10 @@ function App() {
     "@graph": [
       {
         "@type": ["LocalBusiness", "SportsActivityLocation"],
-        "@id": "https://o2sportsrecovery.com/#business",
+        "@id": "https://novasportsrecovery.com/#business",
         name: contactData.businessName,
         description: "Centro de Alto Rendimiento Deportivo orientado a recuperación deportiva.",
-        url: "https://o2sportsrecovery.com/",
+        url: "https://novasportsrecovery.com/",
         telephone: contactData.phoneRaw,
         address: {
           "@type": "PostalAddress",
@@ -667,8 +667,8 @@ function App() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
       <header className={`site-header ${scrolled ? "is-scrolled" : ""}`}>
-        <a className="brand" href="#top" aria-label="O2 Sports & Recovery inicio">
-          <img className="brand-logo" src="/logoO2-cropped.png" alt="" aria-hidden="true" />
+        <a className="brand" href="#top" aria-label="Nova Sports & Recovery inicio">
+          <img className="brand-logo" src="/logonova.png" alt="" aria-hidden="true" />
           <small>Sports & Recovery</small>
         </a>
         <nav className="desktop-nav" aria-label="Principal">
@@ -709,7 +709,7 @@ function App() {
             <p className="eyebrow">Centro de Alto Rendimiento Deportivo</p>
             <h1 id="hero-title">Recovery lab para volver a competir mejor.</h1>
             <p className="hero-text">
-              O2 Sports & Recovery combina performance, tecnología y criterio deportivo en una experiencia premium para atletas que entrenan fuerte.
+              Nova Sports & Recovery combina performance, tecnología y criterio deportivo en una experiencia premium para atletas que entrenan fuerte.
             </p>
             <div className="hero-actions">
               <a className="button primary" href={contactData.whatsappUrl} target="_blank" rel="noopener noreferrer">
@@ -721,7 +721,7 @@ function App() {
             </div>
           </div>
           <div className="hero-visual">
-            <img src="/DiseñoO2.png" alt="Diseño O2 Sports Recovery" className="hero-logo-image" />
+            <img src="/DiseñoO2.png" alt="Diseño Nova Sports Recovery" className="hero-logo-image" />
           </div>
         </section>
 
@@ -730,11 +730,11 @@ function App() {
             <p className="eyebrow">No es pausa. Es preparación.</p>
             <h2>Recuperación pensada como una ventaja competitiva.</h2>
             <p>
-              El atleta moderno no separa entrenamiento, descanso y ciencia. O2 se posiciona como un espacio de alto rendimiento donde cada sesión debe sentirse medida, precisa y enfocada en volver al cuerpo disponible para el próximo estímulo.
+              El atleta moderno no separa entrenamiento, descanso y ciencia. Nova se posiciona como un espacio de alto rendimiento donde cada sesión debe sentirse medida, precisa y enfocada en volver al cuerpo disponible para el próximo estímulo.
             </p>
           </div>
           <figure className="manifest-photo">
-            <img src="/O2posible.jpg" alt="Instalaciones de O2 Sports Recovery con logo iluminado" />
+            <img src="/O2posible.jpg" alt="Instalaciones de Nova Sports Recovery con logo iluminado" />
           </figure>
         </section>
 
@@ -744,7 +744,7 @@ function App() {
             <div>
               <h2>Evaluamos tu cuerpo para ayudarte a rendir mejor</h2>
               <p>
-                En O2 evaluamos, medimos e investigamos con herramientas precisas para comprender tu condición física particular.
+                En Nova evaluamos, medimos e investigamos con herramientas precisas para comprender tu condición física particular.
                 Diseñamos estrategias para ayudarte a incorporar la actividad física, cuidar tu salud y alcanzar tus objetivos deportivos.
               </p>
             </div>
